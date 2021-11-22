@@ -44,7 +44,7 @@ public class ProductController {
             return VIEWS_PRODUCT_CREATE_OR_UPDATE_FORM;
         } else {
             this.productService.save(prod);
-            return "redirect:/";
+            return "welcome";
         }
     }
 }
